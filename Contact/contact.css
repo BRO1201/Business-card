@@ -1,0 +1,188 @@
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  min-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Стилі для шапки сайту ЛОГОТИП та список ПОСИЛАНЬ */
+.border-nav {
+  border-bottom: 2px solid #26292d;
+  background-color: #171718;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: #fff;
+  margin: 20px 0;
+}
+
+.logo-span {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+}
+
+.list-paight {
+  display: flex;
+  list-style: none;
+  margin-bottom: 0;
+  margin-right: 50px;
+}
+
+.list-link-one {
+  position: relative;
+  margin: 20px 40px 20px 0;
+}
+
+.list-link-one:hover .hr-hover-one {
+  position: absolute;
+  display: block;
+  width: 64px;
+  height: 3px;
+  background: #5c62ec;
+  border-radius: 50px;
+}
+
+.link-page.active {
+  color: #5c62ec;
+}
+
+.list-link-two {
+  position: relative;
+  margin: 20px 40px 20px 0;
+}
+
+.list-link-two:hover .hr-hover-two {
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #5c62ec;
+  border-radius: 50px;
+}
+
+.list-link-three {
+  position: relative;
+  margin: 20px 40px 20px 0;
+}
+
+.list-link-three:hover .hr-hover-three {
+  position: absolute;
+  display: block;
+  width: 75px;
+  height: 3px;
+  background: #5c62ec;
+  border-radius: 50px;
+}
+
+.link-page {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+}
+
+/* Контактні данеі */
+
+.main {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 72px;
+}
+
+.tittle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  color: #5c62ec;
+  margin-bottom: 20px;
+}
+
+.location {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #171718;
+  margin-bottom: 20px;
+}
+
+.text-location {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #171718;
+  margin-bottom: 20px;
+}
+
+.text-contact {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #171718;
+  margin-bottom: 20px;
+}
+
+.number {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #171718;
+  margin-bottom: 20px;
+}
+
+.mail {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #171718;
+  margin-bottom: 20px;
+}
+
+.mail-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #5c62ec;
+  margin-bottom: 20px;
+}
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
+  background-color: #171718;
+  margin-top: 32px;
+}
+
+.block-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.link-footer {
+  margin: 46px 15px 27px 15px;
+}
+
+.footer-text {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+}

@@ -1,0 +1,290 @@
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  min-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Стилі для шапки сайту ЛОГОТИП та список ПОСИЛАНЬ */
+
+.border-nav {
+  border-bottom: 2px solid #26292d;
+  background-color: #171718;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: #fff;
+  margin: 20px 0;
+}
+
+.logo-span {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+}
+
+.list-paight {
+  display: flex;
+  list-style: none;
+  margin-bottom: 0;
+  margin-right: 50px;
+}
+
+.list-link-one {
+  position: relative;
+  margin: 20px 40px 20px 0;
+}
+
+.list-link-one:hover .hr-hover-one {
+  position: absolute;
+  display: block;
+  width: 64px;
+  height: 3px;
+  background: #5c62ec;
+  border-radius: 50px;
+}
+
+.link-page.active {
+  color: #5c62ec;
+}
+
+.list-link-two {
+  position: relative;
+  margin: 20px 40px 20px 0;
+}
+
+.list-link-two:hover .hr-hover-two {
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #5c62ec;
+  border-radius: 50px;
+}
+
+.list-link-three {
+  position: relative;
+  margin: 20px 40px 20px 0;
+}
+
+.list-link-three:hover .hr-hover-three {
+  position: absolute;
+  display: block;
+  width: 75px;
+  height: 3px;
+  background: #5c62ec;
+  border-radius: 50px;
+}
+
+.link-page {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+}
+
+/* Стилі для шапки інформація про мене та кнопка завантаження резюме */
+
+.header {
+  min-height: 695px;
+  padding: 40px 0;
+  background-color: #171718;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-wrapper {
+  max-width: 630px;
+}
+
+.header-tittle {
+  font-weight: 700;
+  font-size: 50px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.span-tittle {
+  color: #5c62ec;
+}
+
+.span-br-tittle {
+  margin-left: 7%;
+}
+
+.center-content {
+  display: block;
+  justify-content: center;
+}
+
+.text-header {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 52px;
+  margin-left: 23%;
+}
+
+.btn-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 5px;
+  margin-left: 35%;
+  background: #5c62ec;
+  transition: 0.3s ease-in;
+}
+
+.btn-header:hover {
+  box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.5);
+  transform: translate(-3px, -3px);
+}
+
+/* Сексія із роботами сайтів */
+
+.portfolio-tittle {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 60px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 130%;
+  color: #5c62ec;
+}
+
+/* Слайдер */
+
+.gallery {
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.gallery-list {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-item {
+  max-width: 300px;
+  height: auto;
+  border: 5px solid #5c62ec;
+  background-color: #171718;
+  border-radius: 25px;
+  padding-bottom: 25px;
+  margin-left: 10px;
+}
+
+.gallery-img {
+  border-radius: 20px;
+  height: 200px;
+}
+
+.text {
+  text-align: center;
+}
+
+.tittle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.text-subtittle {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffff;
+  margin-bottom: 30px;
+}
+
+.link-slider {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fafafa;
+  border: 2px solid #5c62ec;
+  background-color: #5c62ec;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.link-slider:hover {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fafafa;
+  border: 2px solid #5c62ec;
+  background-color: #5c62ec;
+  border-radius: 15px;
+  padding: 5px;
+  box-shadow: 0 0 15px 5px rgb(239, 229, 229);
+}
+
+.arrow-left {
+  position: absolute;
+  top: 45%;
+  left: 2%;
+}
+.arrow-right {
+  position: absolute;
+  top: 45%;
+  left: 93%;
+}
+
+/* FOOTER із посиланнями на соціальні мережі */
+
+.footer {
+  width: 100%;
+  background-color: #171718;
+}
+
+.block-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.link-footer {
+  margin: 46px 15px 27px 15px;
+}
+
+.footer-text {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+}
